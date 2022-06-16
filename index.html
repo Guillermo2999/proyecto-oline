@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/1c9a763aac.js" crossorigin="anonymous"></script>
+    <title>tienda de articulos oline | Ecommerce doña mary</title>
+</head>
+<body>
+
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="./assets/logo_tienda.jpg" width="85px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="">casa</a></li>
+                        <li><a href="">productos</a></li>
+                        <li><a href="">sobre</a></li>
+                        <li><a href="">Contactos</a></li>
+                        <li><a href="">cuenta</a></li>
+                    </ul>
+                </nav>
+                <img src="./assets/cart.png" width="30px" height="30px">
+                <img src="./assets/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+    
+            <div class="row">
+                <div class="col-2">
+                    <h1>haz tus compras con <br>un nuevo estilo!</h1>
+                    <p>la nueva forma que estaras descubriendo para realizar
+                        tus compras como nunca lo habias echo
+                         <br>esta forma te facilitara tu vida .
+                    </p>
+                    <a href="" class="btn">echa un vistaso &#8594</a>
+                </div>
+                <div class="col-2">
+                    <img src="./assets/personas_comprando.jpg"width="200" height="400">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--------- featured categories----------->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="./assets/tienda_1.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="./assets/tienda_2.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="./assets/tienda_3.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------- featured products ----------->
+    <div class="small-container">
+        <h2 class="title">los mejores articulos.</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="./assets/producto_1.jpg">
+                <h4>variedad de papas</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>gm
+                <p>$35.00 c/u</p>
+            </div>
+            <div class="col-4">
+                <img src="./assets/producto_2.jpg">
+                <h4>tus sabores favoritos</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>ml
+                <p>$70.00 c/u</p>
+            </div>
+            <div class="col-4">
+                <img src="./assets/producto_3.jpg">
+                <h4>tus ceriales favoritos.</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>gm
+                <p>$89.00 c/u</p>
+            </div>
+            <div class="col-4">
+                <img src="./assets/producto_4.jpg">
+                <h4>tus galletas favoritas
+                    a un mejor precio.
+                </h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>gm.
+                <p>$25.00 c/u</p>
+            </div>
+        </div>
+        <h2 class="title">productos en liquidacion.</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="./assets/liquidacion_1.jpg">
+                <h4>galletas chokis 100gm</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>gm
+                <p>$17.46 c/u</p>
+            </div>
+            <div class="col-4">
+                <img src="./assets/liquidacion_2.jpg">
+                <h4>coca-cola de cereza</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>ml
+                <p>$25.70</p>
+            </div>
+            <div class="col-4">
+                <img src="./assets/liquidacion_3.jpg">
+                <h4>arroz crujiente 190 gm</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>gm
+                <p>$13.83</p>
+            </div>
+            <div class="col-4">
+                <img src="./assets/liquidacion_4.jpg">
+                <h4>paquete de leche lalo</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>pk
+                <p>$96.55</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="./assets/liquidacion_5.jpg">
+                <h4>pañales etapa 3 pack 4</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>pk
+                <p>$191.99</p>
+            </div>
+            <div class="col-4">
+                <img src="./assets/liquidacion_6.jpg">
+                <h4>como el aroma de tu suegra </h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>ml
+                <p>$96.20</p>
+            </div>
+            <div class="col-4">
+                <img src="./assets/liquidacion_7.jpg">
+                <h4>conciente a tu peerito</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>kg
+                <p>$460.03</p>
+            </div>
+            <div class="col-4">
+                <img src="./assets/liquidacion_8.jpg">
+                <h4>duraznoz chicos</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>kg
+                <p>$76.91</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!------------ offer ----------->
+
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="./assets/anuncio_1.jpg" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>venta exclusiva en la tienda xiaomi</p>
+                    <h1>xiaomi poco x3 pro</h1>
+                    <small>este smarphone es capas de reproducir musica y jugar a la vez ya que cuenta 
+                        con 6 poderos GB de ram y 128 de GB de interna
+                    </small>
+                    <br>
+                    <a href="" class="btn">compra ahora! &#8594</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-------- testimonial ------->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p> nos recomienda mucho la avena 
+                        ayuda para la digestion contiene
+                        muchas proteinas y te ayuda en tu vida diaria!</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <img src="./assets/creador_1.jpg">
+                        <h3>el memo</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>esta pagina me a servido muchopara encontrar
+                        mis articulos favoritos me a gustado mas el
+                        area de liquidacion !</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <img src="./assets/autor_2.jpg">
+                        <h3>la chayo</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>el amor a las galletas es lo mejor que existe
+                        ya que estas dan energia con su 
+                        rico sabor cremoso y chocolatoso !</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <img src="./assets/autor_3.jpg">
+                        <h3>mister palomo</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- brands -->
+
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="./assets/logo-godrej.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="./assets/logo-coca-cola.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="./assets/logo-oppo.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="./assets/logo-paypal.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="./assets/logo-philips.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------ footer ------------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>disponible para dispositivos</h3>
+                    <p>descarga la aplicacion en tu android y iphone.</p>
+                    <div class="app-logo">
+                        <img src="./assets/play-store.png">
+                        <img src="./assets/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="./assets/logo_tienda.jpg">
+                    <p>nuestro proposito es vender mercancia
+                         al alcance de tus manos.
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>descuentos</li>
+                        <li>seguridad</li>
+                        <li>privacidad</li>
+                        <li>devoluciones</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>telegram</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 
+                luis guillermo montiel santoyo
+            </p>
+        </div>
+    </div>
+    
+    <div class="loader-container">
+        <img src="./assets/logo_tienda.jpg" alt="">
+    </div>
+
+
+    <script src="./js/script.js"></script>
+
+
+
+</body>
+</html>
